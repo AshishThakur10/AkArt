@@ -1,15 +1,82 @@
 <html>
 <head>
     <title>Paintings</title>
+    <style type="text/css">
+        h1{
+            text-align: center;
+            
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .gallery{
+            borrder:1px solid #ccc;
+        }
+        .gallery img{
+            width:100%;
+            height:auto;
+        }
+        .des{
+            padding: 15px;
+            text-align: center;
+        }
+        .responsive{
+            padding: :0 6px;
+            float: left;
+            width: 25%;
+        }
+        
+        @media only screen and (max-width: 700px){
+            .responsive{
+                width: 50%;
+                margin: 6px 0;
+            }
+        }
+        
+         @media only screen and (max-width: 500px){
+            .responsive{
+                width: 100%;
+                margin: 6px 0;
+            }
+        }
+        
+        
+    
+    </style>
 
 </head>
 <body>
+    <nav><a href="../index.html">Home</a></nav>
+    <h1>Painting Gallery</h1>
  <div class="responsive">
     <div class="gallery">
-     <a href ="images/pic2.png" target="_blank"><img src="../Images/pic2.png"></a>
+     <a href ="images/pic2.png" target="_blank"><img src="../Images/pic.jpg" width="300" height="200"></a>
+        <div class="des">Add Description</div>
      </div>
- 
  </div>    
-    
+  <div class="responsive">
+    <div class="gallery">
+     <a href ="images/pic2.png" target="_blank"><img src="../Images/pic2.png"  width="300" height="200"></a>
+        <div class="des">Add Description</div>
+     </div>
+ </div>
+ <div class="responsive">
+    <div class="gallery">
+     <a href ="images/pic2.png" target="_blank"><img src="../Images/pic2.png"  width="300" height="200"></a>
+        <div class="des">Add Description</div>
+     </div>
+ </div>
+<div class="responsive">
+    <div class="gallery">
+     <a href ="images/pic2.png" target="_blank"><img src="../Images/pic2.png" width="300" height="200"></a>
+        <div class="des">Add Description</div>
+     </div>
+ </div>
+ <div class="responsive">
+    <div class="gallery">
+     <a href ="images/pic2.png" target="_blank"><img src="../Images/pic2.png"  width="300" height="200"></a>
+        <div class="des">Add Description</div>
+     </div>
+ </div>
 </body>
 </html>
