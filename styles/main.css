@@ -5,10 +5,9 @@
 }
 
 body{
-background-color: #456C81;
+background-color: #edf3f8;
 margin: 0px;
 padding: 0px;
-    min-height: 200vh;
 }
 
 header {
@@ -60,8 +59,8 @@ header ul li a{
 .banner{
     position: relative;
     width: 100%;
-    height: 100vh;
-    background:#ccc8c8;
+    height: 15vh;
+    background:#edf3f8;
     background-size: cover;
 }
 
@@ -73,19 +72,47 @@ header.sticky .logo{
     color:#000;
 }
 
-li{
-    display: inline-block;
-}
-section{
-  padding: 10%;
-  background: #dfe6e4;
-}
-.heading{
-    font-size: 32px;
-    text-align: right;
-    background-color: #D15D51;
-}
+
+
 footer{
-  padding: 5%;
-  background:#A700FF;
+  background:#395a6f;
+  color: aliceblue;
+  height: 400px;
+  position: relative;
+    
 }
+
+footer .footer-content{
+    border: 1px solid red;
+    height: 350px;
+    display: flex;
+}
+
+footer .footer-content  .footer-section{
+    flex: 1;
+    border: 1ox solid white;
+    padding: 25px;
+}
+
+/*
+footer ul li {
+    justify-content: space-between;
+    align-items: baseline;
+    padding:40px 100px;
+    list-style: none;
+    align-self: flex-end;
+    
+}
+*/
+footer .footer-bottom{
+    background:#132c3c;
+    color: #606060;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+}
+
