@@ -71,7 +71,9 @@ header.sticky .logo{
     color:#000;
 }
 
-
+header.sticky .checkbtn{
+    color :#000;
+}
 
 footer{
   background:#395a6f;
